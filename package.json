@@ -1,0 +1,29 @@
+{
+  "name": "couchdb-sync",
+  "version": "0.1.0",
+  "description": "generic couchdb replicator which is basically an eventemitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "couchdb",
+    "sync",
+    "replicate"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oroce/couchdb-sync/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oroce/couchdb-sync.git"
+  },
+  "author": "oroce <robert@oroszi.net>",
+  "license": "MIT",
+  "dependencies": {
+    "backoff": "~2.3.0",
+    "request": "~2.33.0",
+    "follow": "~0.10.4"
+  }
+}
