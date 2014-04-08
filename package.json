@@ -1,6 +1,6 @@
 {
   "name": "couchdb-sync",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "generic couchdb replicator which is basically an eventemitter",
   "main": "index.js",
   "scripts": {
