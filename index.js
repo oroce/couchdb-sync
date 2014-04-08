@@ -4,7 +4,6 @@ var request = require( "request" );
 var follow = require( "follow" );
 var backoff = require( "backoff" ).fibonacci;
 var EventEmitter = require( "events" ).EventEmitter;
-var async = require( "async" );
 
 module.exports = function( sourceUrl, seq ){
   seq = seq || 0;
